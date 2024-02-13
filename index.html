@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<style>
+    * {
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+    }
+    .bg-img{
+        background-image: url(image/1920x744_bg1.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        margin-top: 120px;
+    }
+    .bg-img2{
+        background-image: url(image/1920x999_bg1.webp);
+        height:350px;
+        position: sticky;
+    }
+</style>
+
+<body>
+    <div class="navbar navbar-expand-lg bg-dark position-fixed top-0 start-0 end-0 z-1  ">
+        <div class="container-fluid ">
+            <a href="#" class="navbar-brand">
+                <img src="image/logo.png" alt="logo">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-3 mb-2 text-uppercase gap-1  ">
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link  text-white">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">about us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">franchise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="store_locator.html" class="nav-link  text-white">store locator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link  text-white">order now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-base-target="#carouselInterval" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="slide 1"></button>
+            <button type="button" data-base-target="#carouselInterval" data-bs-slide-to="1"
+                aria-label="slide 2"></button>
+            <button type="button" data-base-target="#carouselInterval" data-bs-slide-to="2"
+                aria-label="slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="image/1920x1080_slide1.jpg" class="d-block w-100" alt="first img slide">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50  w-50">
+                    <h2 class="fs-1 text-letf">The Only Pizza Made From <br>
+                        Fresh Dough For Fresh Pizza</h2>
+                    <button class="btn btn-danger w-50 fs-4 p-3 ">Order Online</button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+                <img src="image/1920x1080_slide2.jpg" class="d-block w-100" alt="second img slide">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50 w-50">
+                    <h2 class="fs-1 text-letf">The Only Pizza Made From <br>
+                        Fresh Dough For Fresh Pizza</h2>
+                    <button class="btn btn-danger w-50 fs-4 p-3">Order Online</button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+                <img src="image/1920x1080_slide3.jpg" class="d-block w-100" alt="third img slide">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50 w-50">
+                    <h2 class="fs-1 text-letf">The Only Pizza Made From <br>
+                        Fresh Dough For Fresh Pizza</h2>
+                    <button class="btn btn-danger w-50 fs-4 p-3">Order Online</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-base-target="#carouselInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Prev</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-base-target="#carouselInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-fluid mt-2">
+        <div class="row px-1">
+            <div class="col-4 mb-3 border " style="width:26rem;">
+                <div class="card  ">
+                    <img src="image/home-box1.webp" class="card-img-top rounded hover-w-100  " alt="">
+                    <div class="position-absolute end-25 top-25 text-white w-100 text-center mt-5 p-4">
+                        <h2>Starter</h2>
+                        <a href="#" class="text-white text-hover-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-5">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3" style="width: 26rem;">
+                <div class="card">
+                    <img src="image/home-box2.webp" class="card-img-top rounded" alt="">
+                    <div class="position-absolute end-25 top-25 text-white w-100 text-center mt-5 p-4">
+                        <h2>Pizza</h2>
+                        <a href="#" class="text-white text-hover-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-5">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3" style="width: 26rem;">
+                <div class="card">
+                        <img src="image/home-box3.webp" class="card-img-top rounded" alt="">
+                        
+                        <div class="position-absolute end-25 top-25 text-white w-100 text-center mt-5 p-4">
+                            <h2>Pasta</h2>
+                            <a href="#" class="text-white text-hover-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-5">Order Now</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4" style="width: 26rem;">
+                <div class="card">
+                    <img src="image/home-box4.webp" class="card-img-top rounded" alt="">
+                    <div class="position-absolute end-25 top-25 mt-5 text-white text-center w-100 p-4">
+                        <h2>Cafe Case <br> Blance </h2>
+                        <a href="#" class=" text-white text-hover-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-5">View Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="width: 26rem;">
+                <div class="card">
+                    <img src="image/home-box5.webp" class="card-img-top rounded" alt="">
+                    <div class="position-absolute top-25 end-25 mt-5 text-white text-center w-100 text-wrap p-4 ">
+                        <h2>Tandy's Fried <br> Chicken</h2>
+                        <a href="#" class="text-white text-hover-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-5">View Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="width: 26rem;">
+                <div class="card">
+                    <img src="image/home-box6.webp" class="card-img-top rounded" alt="">
+                    <div class="position-absolute end-25 top-25 text-white text-center text-wrap w-100 mt-5 p-4">
+                        <h2>Wings World</h2>
+                        <a href="#" class="text-white text-hover-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-5">View Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-img">
+                <!-- <img src="image/1920x744_bg1.webp" class="w-100 z-0" alt=""> -->
+                <div class="w-50 position-relative z-1 start-50">
+                <h1 class="fs-1 fw-bold">Welcome To US Pizza</h1>
+                    <p class="lh-lg fs-5">USPizza is all about quality you can trust. As one of the original founding Pizza brands and the 3rd largest Pizza chain in India, our sole mission is making the freshest, tastiest and funnest Pizza around. Our classic pan pizza will always be a fan favourite, with a soft and chewy crust perfectly balancing out the healthy tomato puree and mozzarella - cheddar blended cheese. Our authentic Italian crust for those who would prefer a light and airy crust to more fully enjoy the toppings. Thin, light and delicious. </p>
+                    <a href="" class=" text-danger mb-3 link-offset-1 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover fs-4">More About Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="fs-1 fw-bold mt-5">Our Story</h1>
+                <p class="lh-md fs-5">
+                    Contrary to industry standard strategy, USPizza, since 1996, has been committed to growing our brand slowly and steadily. Every outlet is carefully selected on strict criteria. To be a USPizza franchisee is a privilege unto itself. The same commitment to product and service perfection we practice is expected from our partners. 
+                </p>
+                <p class="lh-md fs-5">
+                    Our product is standardised across the Nation, supported by a robust supply chain providing all the ingredients required to perfectly craft our Pizza. Our outlets are designed by leading architects to reflect our philosophy of being open and inviting, while putting our customer comfort on priority.
+                </p>
+                <p class="lh-md fs-5">Everywhere we go, we hear ‘Your pizza is the tastiest pizza around, why aren’t you open in my location’. The answer is simple, every outlet opened is a promise to our customer, and not one we take lightly.</p>
+            </div>
+            <div class="col-6">
+                <img src="image/story-front.webp" class="w-100 rounded mt-4" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center bg-img2 text-white pt-5">
+                <h1 class="mb-5">We Offer You an Unforgettable
+                    Delivery Experience</h1>
+                    <button class="btn btn-danger p-3 fs-4 w-25">Order Online</button>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------footer------------------ -->
+    <div class="container-fluid  p-5" style="background-color:#1c181a;">
+        <div class="row">
+            <div class="col text-white text-center">
+                <h1>Contact Us</h1>
+                <p>U.S.Pizza office:</p>
+                <p>1st floor MVR square, above quench liquor store,
+                    201 CMR road, HRBR layout, 560043,
+                    Bangalore, Karnataka.</p>
+                    <p>+91 -6360266160</p>
+                    <p>franchise@uspizza.in</p>
+            </div>
+            <div class="col text-white text-center">
+                <h1>Stay Connected</h1>
+                <p>Follow us on social media channels</p>
+                <ul class="navbar-nav flex-row gap-3 justify-content-center">
+                    <li class="nav-item"><a href="" class="nav-link"><i class="bi  bi-facebook fs-2"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-instagram fs-2"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-twitter fs-2"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-youtube fs-2"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><img src="image/koo2.png"style="width:28px;" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="col text-white text-center">
+                <h1>Timings</h1>
+                <p>Monday - Sunday</p>
+                <p>11:00 AM - 10:00 PM</p>
+            </div>
+        </div>
+        <div class="row">
+                <ul class="navbar-nav flex-row justify-content-center gap-2 fs-5 text-warning">
+                    <li class="nav-item " >
+                        <a href="" class="nav-link">HOME &nbsp;&nbsp;|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">ABOUT US &nbsp;&nbsp;|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">MENU &nbsp;&nbsp;|</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="" class="nav-link">GALLERY &nbsp;&nbsp;|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">FRANCHISE &nbsp;&nbsp;|</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link">STORE LOCATOR &nbsp;&nbsp;|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">BLOG &nbsp;&nbsp;|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">CONTACT US &nbsp;&nbsp;|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">ORDER NOW</a>
+                    </li>
+                </ul>
+           
+            <p class="fs-4 text-center text-white">Copyright © 2021 US Pizza All Rights Reserved Designed By Petpooja.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
